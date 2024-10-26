@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     AUTO_DRAW: bool = True
     JOIN_TG_CHANNELS: bool = True
     CLAIM_REWARD: bool = True
-    AUTO_UPGRADE: bool = True
+    AUTO_UPGRADE: bool = False
     REF_ID: str = 'f464869246'
     IGNORED_BOOSTS: list[str] = []
     IN_USE_SESSIONS_PATH: str = 'bot/config/used_sessions.txt'
